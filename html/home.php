@@ -102,11 +102,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Main content -->
       <div class="content">
         <div class="container-fluid">
+        
         <?php
-          include("gerenciarUsuario.html");
-          include("gerenciarLocatario.html");
-          include("lancarRegistro.html");
-          include("consultarRegistro.html");
+          include("./body/gerenciarUsuario.html");
+          include("./body/gerenciarLocatario.html");
+          include("./body/lancarRegistro.html");
+          include("./body/consultarRegistro.html");
         ?>
         </div><!-- /.container-fluid -->
       </div>
@@ -145,6 +146,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <script src="../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- AdminLTE App -->
   <script src="../dist/js/adminlte.min.js"></script>
+  <script type="module" src="../scripts/scripts.js" ></script>
 </body>
 
 </html>
