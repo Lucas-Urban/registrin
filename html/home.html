@@ -102,7 +102,12 @@ scratch. This page gets rid of all links and provides the needed markup only.
       <!-- Main content -->
       <div class="content">
         <div class="container-fluid">
-          <!-- /.row -->
+        <?php
+          include("gerenciarUsuario.html");
+          include("gerenciarLocatario.html");
+          include("lancarRegistro.html");
+          include("consultarRegistro.html");
+        ?>
         </div><!-- /.container-fluid -->
       </div>
       <!-- /.content -->
