@@ -21,4 +21,16 @@ $(document).ready(function(){
     $("#btnGerenciarUsuario").click(function (e) { 
         gerenciarUsuario.show();
     });
+
+    $("#abrirModalCadastrarUsuario").click(function () {
+        gerenciarUsuario.bntabrirModalCadastrarUsuarioClick();
+    });
+    
+    $("#modalCadastrarUsuarioBntRegistrar").click(function () {
+        gerenciarUsuario.modalCadastrarUsuarioBntRegistrarClick();
+    });
+    
+    $("#modalCadastrarUsuarioBntCancelar").click(function () {
+        $("#modalCadastrarUsuario").hide();
+    });
 });

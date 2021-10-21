@@ -29,11 +29,101 @@
                 </div>
               </div>
               <div class="card-body">
-               
+                <div id="modalCadastrarUsuario" class="register-box-body">
+                  <p class="login-box-msg">Registre um novo usuário</p>
+                  <div >
+                    <div class="form-group has-feedback">
+                      <input
+                        id="cadastrarUsuarioNome"
+                        type="text"
+                        class="form-control"
+                        placeholder="Nome Completo"
+                      />
+                      <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                      <input
+                        id="cadastrarUsuarioEmail"
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                      />
+                      <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                      <input
+                        id="cadastrarUsuarioSenha"
+                        type="password"
+                        class="form-control"
+                        placeholder="Senha"
+                      />
+                      <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                    </div>
+                    <div class="form-group has-feedback">
+                      <input
+                        id="cadastrarUsuarioSenhaRepetida"
+                        type="password"
+                        class="form-control"
+                        placeholder="Repita a senha"
+                      />
+                      <span class="glyphicon glyphicon-log-in form-control-feedback"></span>
+                    </div>
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <button  id="modalCadastrarUsuarioBntRegistrar" class="btn btn-primary btn-block btn-flat" >
+                          Registrar
+                        </button>
+                      </div>
+                      <div class="col-xs-4" style="margin-left: 5px;">
+                        <button  id="modalCadastrarUsuarioBntCancelar" class="btn btn-primary btn-block btn-flat" >
+                          Cancelar
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <br><br>
+                <div id="listagemCadastrarUsuario" class="box">
+                  <div class="box-header">
+                    <h3 class="box-title">Listagem de usuários do sistema</h3>
+                  </div>
+                  <!-- /.box-header -->
+                  <div class="box-body">
+                    <table id="tabelaCadastrarUsuario" class="table table-bordered table-hover">
+                      <thead>
+                        <tr>
+                          <th>ID</th>
+                          <th>Nome</th>
+                          <th>E-mail</th>
+                          <th>Administrador</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody id="conteudoTabelaCadastrarUsuario"></tbody>
+                      <tfoot>
+                        <tr>
+                          <th>ID</th>
+                          <th>Nome</th>
+                          <th>E-mail</th>
+                          <th>Administrador</th>
+                          <th></th>
+                        </tr>
+                      </tfoot>
+                    </table>
+                    <br>
+                    <div class="row">
+                      <div class="col-xs-4">
+                        <button id="abrirModalCadastrarUsuario" class="btn btn-primary btn-block btn-flat">
+                          Registrar Novo
+                        </button>
+                      </div>
+                      <!-- /.col -->
+                    </div>
+                  </div>
+                </div>
               </div>
               <!-- /.card-body -->
               <div class="card-footer">
-                Footer
               </div>
               <!-- /.card-footer-->
             </div>
