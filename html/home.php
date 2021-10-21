@@ -62,7 +62,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                with font-awesome or any other icon font library -->
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#" class="nav-link" id="btnConsultarRegistro">
                 <i class="fas fa-search"></i>
                 <p>
                   Consultar Registros
@@ -71,7 +71,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </li>
 
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#" class="nav-link" id="btnLancarRegistro">
                 <i class="fas fa-cash-register"></i>
                 <p>
                   Lançar Registro
@@ -79,7 +79,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
               </a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="#" class="nav-link" id="btnGerenciarUsuario">
                 <i class="fas fa-users"></i>
                 <p>
                   Gerenciar Usuário
