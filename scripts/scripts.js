@@ -9,6 +9,12 @@ import * as uteis from "./module/uteis.js";
 $(document).ready(function(){
     uteis.ocultarBody();
 
+    lancarRegistro.show();
+
+    //Date picker
+    $('#dataRegistro').datetimepicker({
+        locale: 'pt-br',
+    });
 
     $("#btnConsultarRegistro").click(function (e) { 
         consultarRegistro.show();
